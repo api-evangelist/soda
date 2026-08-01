@@ -1,8 +1,26 @@
 aid: soda
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/soda.png
 name: SODA
-description: 'SODA is a company surfaced as a portfolio company of softbank-vision-fund and added to the
-  API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: >-
+  SODA Inc. (株式会社SODA) is a Japanese consumer-technology company that operates SNKRDUNK
+  (スニーカーダンク / スニダン), one of Japan's largest consumer-to-consumer marketplaces for
+  sneakers, trading cards ("トレカ"), apparel, and accessories. The SNKRDUNK app lets users buy
+  and sell collectible and secondary-market goods with professional in-house authentication
+  (真贋鑑定 by プロ鑑定士) and a full purchase-protection / compensation guarantee, alongside a
+  buyback service. SODA is a portfolio company of the SoftBank Vision Fund. As a consumer
+  marketplace app, SODA publishes no public developer program or API at this time; this profile
+  captures the company's public identity and domain-security posture for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/soda/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +30,32 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Marketplace
+- E-Commerce
+- Sneakers
+- Trading Cards
+- Resale
+- Japan
+- Authentication
 apis: []
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/soda-domain-security.yml
+- type: Website
+  url: https://soda-inc.jp/
+- type: Website
+  url: https://snkrdunk.com/

@@ -1,0 +1,28 @@
+generated: '2026-07-21'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: soda-inc.jp
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Oct  7 14:45:08 2026 GMT
+  hsts: false
+- host: snkrdunk.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 23 23:59:59 2026 GMT
+  hsts: true
+  hsts_max_age: 31536000
+domains:
+- domain: soda-inc.jp
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: reject
+- domain: snkrdunk.com
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: reject
