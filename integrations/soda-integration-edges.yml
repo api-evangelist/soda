@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/soda/integrations
+- https://n8n.io/integrations/soda/
+- https://composio.dev/toolkits/soda
+- https://monid.ai/tools/soda
+checked:
+- https://composio.dev/toolkits/soda
+- https://monid.ai/tools/soda
+- https://n8n.io/integrations/soda/
+- https://zapier.com/apps/soda/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
